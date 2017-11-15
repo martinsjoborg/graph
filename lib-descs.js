@@ -1,5 +1,5 @@
 var descs = {
-  "18d6c72a0cc4": "daniel",
+  "18d6c72a0cc4": "daniel?",
   "18d6c7453ec4": "möllan.lulle",
   "18a6f7f04a06": "möllan.moa",
   "8416f92daa22": "erik1",
@@ -25,7 +25,17 @@ var descs = {
   "18d6c7453e5c": "triang.gabi2",
   "8416f9ae6650": "triang.håkan",
   "18a6f7f046c2": "pontus",
-};
+  "2e6f312f66f0": "ink on skin tattoo",
+  "1627ed37c610": "justnu",
+  "72b235760530": "daniel",
+  "2262d1f72478": "triangelns tobak",
+  "b26d326008b0": "kökskompaniet",
+  "66126cc0acf8": "mio",
+  "8a750390e2e8": "silwer tobak",
+  "a6d7b1efb918": "pontus gågatan",
+  "baea17088eb0": "pontus systemet?",
+  "0e6e136470f8": "salong gorgeous"
+ };
 
 function getnodedesc(nodeid) {
   if (!nodeid || !descs.hasOwnProperty(nodeid)) return "";
